@@ -1,0 +1,33 @@
+h3 {
+    padding: 5% 5% 5% 5%;
+}
+
+p {
+
+}
+
+h1 {
+    padding:  5% 5% 5% 5%;
+    font-family:"Hachi Maru Pop", "Sour Gummy", "Marhey", sans-serif;
+    font-weight:600;
+    font-size:2.5em;
+}
+
+#itchPage {
+    content:url("itch logo.svg");
+    max-width:50%;
+    height:50%;
+    padding-bottom: 5%;
+}
+
+#graphic {
+
+}
+
+#gameArt {
+
+}
+
+#photo {
+
+}
