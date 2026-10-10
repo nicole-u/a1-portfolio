@@ -1,33 +1,87 @@
 h3 {
     padding: 5% 5% 5% 5%;
+    font-family:Cause, sans-serif;
+    font-weight:700;
+    font-size:1.7em;
+    text-align:center;
+}
+
+body {
+    background: linear-gradient(to bottom, #d7f0fe, #d8daf3);
 }
 
 p {
-
+    padding:  7.5% 2.5% 2.5% 5%;
+    font-family:Raleway, sans-serif;
+    font-size: 1.1em;
 }
 
 h1 {
-    padding:  5% 5% 5% 5%;
+    font-size:2.75em;
+}
+
+header {
+    padding:  12.5% 5% 5% 7.5%;
     font-family:"Hachi Maru Pop", "Sour Gummy", "Marhey", sans-serif;
-    font-weight:600;
-    font-size:2.5em;
+    font-weight:bolder;
+    color:white;
+    text-shadow: 0 0 15px #000000, 0 0 5px darkblue;
+    background-image: url("images/header bg.png");
+    max-width:100%;
+    height:50%;
+    background-position:center;
+    background-size: cover;
+}
+
+a, img {
+    transition: scale 0.5s;
+}
+
+a:hover, img:hover {
+  outline: 7px outset rgb(28, 99, 205);
+  scale:110%;
+
 }
 
 #itchPage {
-    content:url("itch logo.svg");
-    max-width:50%;
-    height:50%;
-    padding-bottom: 5%;
+    content:url("images/itch logo.svg");
+    max-width:70%;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:5px;
+}
+
+p#description {
+    font-family:Raleway, sans-serif;
+    text-align:center;
+    padding-top:5%;
+    font-size:1.35em;
 }
 
 #graphic {
-
+    content:url("images/graphic design logo.png");
+    max-width:70%;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:5px;
 }
 
 #gameArt {
-
+    content:url("images/game art logo.png");
+    max-width:70%;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:5px;
 }
 
 #photo {
-
+    content:url("images/photography logo.jpg");
+    max-width:70%;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:5px;
 }
